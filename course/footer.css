@@ -9,12 +9,12 @@ footer {
 footer h3 {
   color: #fff;
   font-size: 36px;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 .signup {
   position: relative;
   width: 350px;
-  margin: 40px auto;
+  margin: 30px auto;
 }
 .signup input {
   width: 100%;
@@ -43,5 +43,5 @@ footer h3 {
   font-weight: 600;
 }
 .signup button:hover {
-  background-color: rgb(255, 231, 186);
+  background-color: rgb(203, 240, 255);
 }
