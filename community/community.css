@@ -1,0 +1,128 @@
+/* 群聊板块标题 */
+.group {
+  height: 40px;
+  margin-top: 25px;
+}
+.group div {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #051CD0;
+  color: #fff;
+  font-size: 28px;
+  margin-left: 100px;
+}
+/* 留言板块 */
+.banner {
+  height: 370px;
+  background-color: #F6F6F6;
+  margin-top: 25px;
+  padding: 15px 0;
+}
+.banner .w {
+  height: 100%;
+}
+/* 左侧 */
+.banner .left {
+  float: left;
+  width: 70px;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 0 15px;
+}
+.banner .left ul {
+  margin-top: 32px;
+}
+.banner .left a {
+  display: inline-block;
+  width: 65px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 0;
+}
+.banner .left .selected {
+  background-color: blue;
+  color: #fff;
+}
+.banner .left li {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.banner .left .last {
+  border: none;
+}
+/* 右侧 */
+.banner .right {
+  float: right;
+  width: 1030px;
+  height: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+}
+.banner .right .comment {
+  height: 130px;
+  background-color: #F4F4F4;
+  margin-top: 20px;
+} 
+.banner .right .comment img {
+  float: left;
+  width: 100px;
+  margin-left: 15px;
+  margin-top: 13px;
+}
+.banner .right .comment .detail {
+  float: left;
+  width: 450px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.banner .right .detail a {
+  display: block;
+  font-size: 24px;
+  color: #000;
+}
+.banner .right .detail a:hover {
+  color: #051CD0;
+}
+.banner .right .detail span {
+  margin-top: 25px;
+  float: right;
+}
+.banner .right .user {
+  color: #686868;
+  margin-right: 20px;
+}
+.banner .right .date {
+  color: #1304d9;
+}
+.banner .right .comment .info {
+  float: right;
+  text-align: right;
+  margin-top: 35px;
+  margin-right: 30px;
+}
+.banner .right .comment .info span {
+  display: block;
+  line-height: 25px;
+  color: rgb(82, 82, 82);
+}
+.banner .right .hidden {
+  display: none;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  /* IE6&7 */
+  *zoom: 1
+}
