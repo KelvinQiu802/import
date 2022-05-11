@@ -1,5 +1,46 @@
 /* 头图 */
 .topImg {
-  height: 200px;
+  position: relative;
+  display: block;
+  height: 390px;
   background: url(../resource/images/topBg.png);
+  margin-top: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+.topImg h1 {
+  font-size: 44px;
+  color: #fff;
+  margin-top: 140px;
+}
+.topImg .tag {
+  width: 110px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #2758DE;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.topImg span {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  font-size: 12px;
+}
+.topImg .date {
+  color: #b0b0b0;
+}
+.topImg .students {
+  color: #2658DF;
+}
+.topImg .mask {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(141, 176, 233, 0.3);
+}
+.topImg:hover .mask {
+  display: block;
 }
