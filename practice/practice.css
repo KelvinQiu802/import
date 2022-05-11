@@ -4,7 +4,7 @@
   display: block;
   height: 390px;
   background: url(../resource/images/topBg.png);
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: center;
   overflow: hidden;
 }
@@ -43,4 +43,24 @@
 }
 .topImg:hover .mask {
   display: block;
+}
+/* 更多 */
+.showmore {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-align: right;
+  color: #737373;
+  font-size: 28px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.showmore i {
+  position: relative;
+  top: 2px;
+  font-family: icomoon, Arial, Helvetica, sans-serif;
+}
+.showmore:hover {
+  color: #2658DF;
 }
