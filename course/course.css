@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../resource/iconfonts/icomoon.eot?9379p4');
+  src:  url('../resource/iconfonts/icomoon.eot?9379p4#iefix') format('embedded-opentype'),
+    url('../resource/iconfonts/icomoon.ttf?9379p4') format('truetype'),
+    url('../resource/iconfonts/icomoon.woff?9379p4') format('woff'),
+    url('../resource/iconfonts/icomoon.svg?9379p4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 /* 轮播图banner背景 */
 .banner {
   background-color: rgba(15,17,55);
@@ -7,4 +19,53 @@
 }
 .carousel {
   cursor: pointer;
+}
+/* 课程板块 */
+.course li {
+  float: left;
+  width: 580px;
+  height: 350px;
+  /* background-color: pink; */
+  margin-right: 40px;
+  margin-top: 30px;
+}
+.course .no-margin {
+  margin-right: 0;
+}
+.course-img {
+  position: relative;
+}
+.course-img img {
+  width: 580px;
+  height: 250px;
+}
+.course-img .tag {
+  position: absolute;
+  width: 75px;
+  height: 30px;
+  line-height: 30px;
+  left: 0;
+  bottom: 25px;
+  background-color: #2558DE;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.course h3 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.course span {
+  display: block;
+  margin-top: 40px;
+  font-size: 10px;
+}
+.course .date{
+  color: #b0b0b0;
+}
+.course .students,
+.course .star {
+  color: #1a54e7;
+  text-decoration: underline;
 }
