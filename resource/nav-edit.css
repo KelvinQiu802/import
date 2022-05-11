@@ -14,3 +14,16 @@ nav,
   height: 50px;
   border-bottom: 1px solid #ccc;
 }
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  /* IE6&7 */
+  *zoom: 1
+}
