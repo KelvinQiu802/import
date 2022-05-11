@@ -1,4 +1,7 @@
 /* 修改默认nav */
+nav {
+  float: left;
+}
 nav,
 .left-background {
   border-bottom: 1px solid #ccc;
