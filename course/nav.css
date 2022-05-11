@@ -154,8 +154,9 @@ nav {
 }
 .logo img {
   float: right;
-  margin-right: 20px;
-  margin-top: 6px;
+  width: 130px;
+  margin-right: 25px;
+  margin-top: 11px;
 }
 /* 搜索图标 */
 .search {
@@ -206,7 +207,7 @@ nav {
 }
 .page a {
   display: inline-block;
-  height: 47px;
+  height: 50px;
   color: #2658DE;
   font-size: 16px;
 }

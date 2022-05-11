@@ -1,0 +1,10 @@
+/* 轮播图banner背景 */
+.banner {
+  background-color: rgba(15,17,55);
+}
+.banner .w {
+  width: 1400px;
+}
+.carousel {
+  cursor: pointer;
+}
