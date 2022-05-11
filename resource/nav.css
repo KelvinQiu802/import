@@ -221,6 +221,10 @@ nav {
   color: #2658DE;
   font-size: 16px;
 }
+.page a:hover {
+  color: #3a4cd4;
+  font-weight: 600;
+}
 .page .current a {
   border-bottom: 3px solid #2658DE;
 }
