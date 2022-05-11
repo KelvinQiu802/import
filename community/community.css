@@ -43,6 +43,9 @@
   line-height: 40px;
   margin: 10px 0;
 }
+.banner .left .btn {
+  color: #051CD0;
+}
 .banner .left .selected {
   background-color: blue;
   color: #fff;
@@ -111,6 +114,27 @@
 }
 .banner .right .hidden {
   display: none;
+}
+/* More */
+.showmore {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  color: #737373;
+  font-size: 28px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.showmore i {
+  position: relative;
+  top: 2px;
+  font-family: icomoon, Arial, Helvetica, sans-serif;
+}
+.showmore:hover {
+  color: #2658DF;
 }
 
 /* 清除浮动 */
