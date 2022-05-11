@@ -17,10 +17,10 @@ footer h3 {
   margin: 30px auto;
 }
 .signup input {
-  width: 100%;
+  width: calc(100% - 10px);
   height: 45px;
   background-color: #3A6EF6;
-  border: none;
+  border: none; 
   border-radius: 20px;
   outline: none;
   padding-left: 10px;
