@@ -51,10 +51,26 @@
   text-align: center;
   font-size: 16px;
 }
+.course-img .mask {
+  position: absolute;
+  display: none;
+  width: 580px;
+  height: 250px;
+  background-color: rgba(91, 144, 229, 0.5);
+}
+.course-img a:hover .mask{
+  display: block;
+}
 .course h3 {
   font-size: 26px;
   font-weight: 400;
   margin-top: 20px;
+}
+.course h3 a {
+  color: #000;
+}
+.course h3 a:hover {
+  color: #1a54e7;
 }
 .course span {
   display: block;
@@ -68,4 +84,7 @@
 .course .star {
   color: #1a54e7;
   text-decoration: underline;
+}
+.course .star {
+  font-family: icomoon ,Arial, Helvetica, sans-serif;
 }
