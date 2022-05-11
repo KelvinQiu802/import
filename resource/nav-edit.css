@@ -1,0 +1,13 @@
+/* 修改默认nav */
+nav,
+.left-background {
+  border-bottom: 1px solid #ccc;
+}
+.page a {
+  height: 47px;
+}
+.right-background {
+  float: left;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
